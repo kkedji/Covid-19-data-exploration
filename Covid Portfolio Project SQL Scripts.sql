@@ -133,7 +133,7 @@ SELECT Dea.continent,
 SELECT *, (VaccinationCountRollup1/population)*100 AS PercentVaccinetedPop
 FROM  #PercentPopulationVaccinated
 
---Create view to store date later for visualizations
+--Create view to store data later for visualizations
 
 CREATE VIEW #PercentPopulationVaccinated AS
 SELECT Dea.continent,
